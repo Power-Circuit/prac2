@@ -1,0 +1,13 @@
+language: csharp
+dotnet: 2.2
+
+matrix: 
+	include:
+		-os: linux
+			dist: bionic
+		-os: linux
+			dist: xenial
+		-os: macos
+		
+script: dotnet test
+	

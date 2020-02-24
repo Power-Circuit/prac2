@@ -8,7 +8,7 @@ namespace Problems
         {
             string hey = "";
             Console.WriteLine(Prefix(hey));
-
+            //Assert.AreEqual(Prefix("hello"), "5,1:hello");
 
         }
 
